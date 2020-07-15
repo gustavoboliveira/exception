@@ -59,6 +59,6 @@ public class Account{
 	
 	@Override
 	public String toString() {
-		return "Saldo da conta: R$ "+String.format(".2f", getSaldoConta());
+		return "Saldo da conta: R$ "+String.format("%.2f", getSaldoConta());
 	}
 }
